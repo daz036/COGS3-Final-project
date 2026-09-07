@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dacheng Zhao — Electrical Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="person">
+    <svg class="circuit-bg" viewBox="0 0 400 500" aria-hidden="true">
+      <g fill="none" stroke="var(--trace-dim)" stroke-width="2">
+        <path d="M400 60 H300 V140 H220"/>
+        <path d="M400 160 H340 V220 H260 V300"/>
+        <path d="M400 340 H310 V400 H240 V460"/>
+        <path d="M260 300 H140 V380"/>
+        <path d="M220 140 V90 H150"/>
+      </g>
+      <g fill="var(--trace)">
+        <circle cx="220" cy="140" r="4"/>
+        <circle cx="260" cy="300" r="4"/>
+        <circle cx="240" cy="460" r="4"/>
+        <circle cx="150" cy="90" r="4"/>
+        <circle cx="140" cy="380" r="4"/>
+      </g>
+    </svg>
+
+    <div class="wrap">
+      <p class="role">Electrical Engineering, UC San Diego</p>
+      <h1 class="name">Dacheng Zhao</h1>
+      <p class="intro">
+        I build things at the intersection of hardware and software —
+        from PID-tuned robots to op-amp circuits and PCB layouts.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="Dacheng_Zhao_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+        <a class="btn btn-ghost" href="#projects">See projects</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <div class="project-title">Line-Following Robot</div>
+        <div class="project-tags">ESP32 · C/C++ · Sensors · PID</div>
+        <p class="project-desc">Sensor-based robot with weighted readings and PID-based steering for line tracking.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-title">Analog Amplifier Design</div>
+        <div class="project-tags">Op-Amps · Circuit Analysis</div>
+        <p class="project-desc">Op-amp circuits including gain stages, filters, buffers, and signal conditioning.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-title">Robot Combat &amp; 3D Design</div>
+        <div class="project-tags">Fusion 360 · Fabrication · Robotics</div>
+        <p class="project-desc">Built and fabricated a combat robot for the Northern California Robot Combat Competition.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-title">PCB &amp; Hardware Design</div>
+        <div class="project-tags">PCB Design · Embedded Systems</div>
+        <p class="project-desc">Hardware and PCB layouts connecting circuit theory to embedded applications.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-title">Personal Portfolio</div>
+        <div class="project-tags">HTML · CSS · Responsive Design</div>
+        <p class="project-desc">This site — built to present my background and engineering work.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <p>C / Arduino, Python, MATLAB</p>
+        </div>
+        <div class="skill-group">
+          <h3>Hardware &amp; design</h3>
+          <p>Circuit analysis, analog electronics, op-amps, PCB design, Fusion 360</p>
+        </div>
+        <div class="skill-group">
+          <h3>Embedded systems</h3>
+          <p>ESP32, Arduino, microcontrollers, PID control, motor control</p>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <p>Git, Kicad, Fusion 360</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <div>
+          <div class="edu-school">University of California, San Diego</div>
+          <div class="edu-detail">B.S. Electrical Engineering — circuits, electronics, embedded systems</div>
+        </div>
+        <div class="edu-time">2025 - Present</div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="edu-school">University of California, Davis</div>
+          <div class="edu-detail">Foundational coursework in mathematics, circuits, and electronics</div>
+        </div>
+        <div class="edu-time">Previous study (2024 - 2025)</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      UCSD Dacheng Zhao · <a href="Dacheng_Zhao_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+    </div>
+  </footer>
+</body>
+</html>
